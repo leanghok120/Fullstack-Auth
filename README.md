@@ -13,4 +13,4 @@ This repository contains a fullstack web application created as part of a learni
 - **Frontend**: React (with create-react-app), CSS
 - **Backend**: Node.js, Express
 - **Database**: Mysql
-- Authentication: Username-Password (salted + hashed)
+- **Authentication**: Username-Password (salted + hashed)
