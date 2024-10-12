@@ -1,21 +1,21 @@
+import React from "react";
 import axios from "axios";
-import React, { useState } from "react";
-import "../Style.css";
+import { useState } from "react";
 
-export default function Signup() {
+export default function Login() {
   const [message, setMessage] = useState("");
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
   async function handleAuth() {
     try {
-      await axios.post("http://localhost:8080/signup", {
+      await axios.post("http://localhost:8080/login", {
         name: username,
         password: password,
       });
-      setMessage("User created successfully!");
+      setMessage("User logged in successfully!");
     } catch (error) {
-      console.error("Error during signup:", error);
+      console.error("Error during login:", error);
       setMessage("An error occured!");
     }
   }
@@ -23,7 +23,7 @@ export default function Signup() {
   return (
     <div className="app-container">
       <div className="auth-container">
-        <h2>Sign Up</h2>
+        <h2>Login</h2>
         <input
           type="text"
           placeholder="Enter your username"
@@ -36,7 +36,7 @@ export default function Signup() {
           onChange={(e) => setPassword(e.target.value)}
           value={password}
         />
-        <button onClick={handleAuth}>Sign Up</button>
+        <button onClick={handleAuth}>Login</button>
       </div>
       <h2 className="message">{message}</h2>
     </div>
