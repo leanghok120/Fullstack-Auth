@@ -1,12 +1,15 @@
-import React from "react";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
+import "./Styles.css";
+import Homepage from "./pages/Homepage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-export default function App() {
+function App() {
   return (
-    <div className="App">
-      <Signup />
-      <Login />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
+
+export default App;
