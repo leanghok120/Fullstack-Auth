@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header className="navbar bg-base-100">
+    <header className="flex flex-col justify-center items-center bg-base-200">
       <div className="flex-1">
-        <Link className="btn btn-ghost text-2xl font-bold" to={"/"}>
+        <Link className="btn btn-ghost text-2xl font-black" to={"/"}>
           Boba Bliss
         </Link>
       </div>
