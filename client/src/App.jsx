@@ -25,8 +25,18 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="h-screen bg-base-200">
-      <RouterProvider router={router} />
+    <div
+      className="absolute inset-0 bg-base-200"
+      style={{
+        backgroundImage: "url('/coffee-bean.svg')",
+        backgroundRepeat: "repeat",
+        backgroundSize: "60px 60px",
+        zIndex: 0,
+      }}
+    >
+      <div className="relative z-10">
+        <RouterProvider router={router} />
+      </div>
     </div>
   );
 }
