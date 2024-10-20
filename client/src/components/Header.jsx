@@ -6,6 +6,7 @@ export default function Header() {
     <header className="flex flex-col justify-center items-center bg-base-300">
       <div className="flex-1">
         <Link className="btn btn-ghost text-2xl font-black" to={"/"}>
+          <img src="/logo.svg" className="w-10" />
           Boba Bliss
         </Link>
       </div>
