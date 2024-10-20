@@ -30,7 +30,7 @@ function App() {
       style={{
         backgroundImage: "url('/coffee-bean.svg')",
         backgroundRepeat: "repeat",
-        backgroundSize: "60px 60px",
+        backgroundSize: "100px 100px",
         zIndex: 0,
       }}
     >

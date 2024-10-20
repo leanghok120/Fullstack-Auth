@@ -10,7 +10,7 @@ export default function Header() {
           Boba Bliss
         </Link>
       </div>
-      <ul className="menu menu-horizontal px-1">
+      <ul className="menu menu-horizontal px-1 text-lg">
         <li>
           <Link className="link-hover font-bold" to={"/create"}>
             Create
