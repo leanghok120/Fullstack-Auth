@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Create() {
   return (
@@ -8,6 +9,7 @@ export default function Create() {
       <div className="mt-12 px-8">
         <h1 className="font-black text-4xl">Create</h1>
       </div>
+      <Footer />
     </div>
   );
 }

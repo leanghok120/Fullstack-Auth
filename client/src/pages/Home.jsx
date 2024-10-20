@@ -1,6 +1,7 @@
 import React from "react";
 import Drink from "../components/Drink";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const drinks = [
@@ -21,6 +22,7 @@ export default function Home() {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Register() {
   return (
@@ -26,6 +27,7 @@ export default function Register() {
           <button class="btn btn-primary">Register</button>
         </form>
       </div>
+      <Footer />
     </div>
   );
 }
