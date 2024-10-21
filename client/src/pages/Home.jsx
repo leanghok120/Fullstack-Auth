@@ -11,9 +11,9 @@ export default function Home() {
   ];
 
   return (
-    <div className="w-2/5 h-screen mx-auto bg-base-300 p-2">
+    <div className="w-2/5 h-screen mx-auto bg-base-300 p-2 flex flex-col">
       <Header />
-      <div className="mt-12 px-8">
+      <div className="flex-grow overflow-y-auto mt-12 px-8">
         <h1 className="font-black text-4xl">Find Something To Drink</h1>
         <h2 className="font-bold text-2xl mt-6">Other's Drinks</h2>
         <div className="flex flex-col gap-4 mt-2">
