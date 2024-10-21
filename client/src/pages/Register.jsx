@@ -24,7 +24,9 @@ export default function Register() {
             placeholder="Password"
             className="input input-bordered"
           />
-          <button class="btn btn-primary">Register</button>
+          <button class="btn btn-primary text-2xl rounded-full">
+            Register
+          </button>
         </form>
       </div>
       <Footer />

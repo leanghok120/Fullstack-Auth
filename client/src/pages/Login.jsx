@@ -24,7 +24,7 @@ export default function Login() {
             placeholder="Password"
             className="input input-bordered"
           />
-          <button class="btn btn-primary">Login</button>
+          <button class="btn btn-primary text-2xl rounded-full">Login</button>
         </form>
       </div>
       <Footer />
