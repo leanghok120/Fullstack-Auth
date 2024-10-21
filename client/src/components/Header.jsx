@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header className="flex flex-col justify-center items-center bg-base-300">
+    <header className="flex flex-col justify-center items-center bg-base-300 mt-5">
       <div className="flex-1">
-        <Link className="btn btn-ghost text-2xl font-black" to={"/"}>
+        <Link className="btn btn-ghost text-4xl font-black" to={"/"}>
           <img src="/logo.svg" className="w-10" />
           Boba Bliss
         </Link>
