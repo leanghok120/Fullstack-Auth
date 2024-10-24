@@ -1,16 +1,14 @@
-# Fullstack Authentication
+# Boba Bliss
 
-This repository contains a fullstack web application created as part of a learning journey into fullstack development and user authentication.
+## Don't know what to drink?
 
-## Features
+Find out what drinks other people are having!
 
-- Fullstack web app with a focus on user authentication
-- Backend and frontend integration
-- Secure handling of usernames and passwords
+A simple fullstack web app built to learn the basics of fullstack web development
 
 ## Technologies Used
 
-- **Frontend**: React (with create-react-app), CSS
+- **Frontend**: React (with create-react-app), TailwindCSS
 - **Backend**: Node.js, Express
-- **Database**: None
+- **Database**: Mysql
 - **Authentication**: Username-Password (salted + hashed)
